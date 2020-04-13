@@ -2,7 +2,6 @@ function W_bc = cal_Wbc(h,P,area,v_drop)
 % W_bc = alpha_V*A*v_drop*rho_f
 % test 
 132
-456
 v= IAPWS_SI('v_ph',P,h);
 h_g = IAPWS_SI('hV_p',P,0);
 h_f = IAPWS_SI('hL_p',P,0);
